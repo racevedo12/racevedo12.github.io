@@ -1,0 +1,54 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+header
+{
+    text-align: center;
+    margin-top: 10%;
+    /* background-size: 120%;
+    background-image: url("/images/ocean-sky-picture.jpg");
+    background-repeat: no-repeat;
+    color: white; */
+}
+
+header img
+{
+    /* max-width: 50%; */
+    border-radius: 60%;
+    margin-bottom: 8%;
+}
+
+.header-button
+{
+    margin-bottom: 10%;
+    padding: 3%;
+}
+
+#education-section h3
+{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#education-section ul
+{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+#education-section li
+{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#skills-section
+{
+    text-align: center;
+}
