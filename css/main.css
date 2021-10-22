@@ -77,6 +77,11 @@ header img
     margin-bottom: 8%;
 }
 
+.project-details
+{
+    text-align: center;
+}
+
 /* Media Querys */
 
 /* Mobile Devices */
