@@ -32,7 +32,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"> Projects </a>
+                <a class="nav-link active" aria-current="page" href="#projects-section"> Projects </a>
               </li>
               
             </ul>
@@ -44,7 +44,7 @@
 
             <!-- Header Section -->
             <header id="header-section">
-                <img class="img-fluid" src="images/image-of-me.jpeg" alt="picture-of-me" />
+                <img class="img" src="images/image-of-me.jpeg" alt="picture-of-me" />
                 <h5> Software Engineer who loves to create applications, learn about new technologies, and help others with my knowledge 💻. My hobbies are sports (baseball being one of my favorites ⚾️) and also listen to any type of music ( I play a little bit of piano 🎹 as well). 😄 </h5>
                 <br/><br/>
                 <i class="fas fa-laptop-code fa-7x"></i>
@@ -87,10 +87,11 @@
                 
             </section>
 
+            <!-- Skills Section -->
             <section id="skills-section">
 
                 <h3> Skills </h3>
-                <br/>
+                
                 <ul class="list-group">
                     <li class="list-group-item"> <i class="fab fa-react fa-7x"></i> </li>
                     <li class="list-group-item"> <img id="express-icon" src="/images/expressjs.svg" alt="express.js-icon"> </li>
@@ -101,9 +102,89 @@
                     <li class="list-group-item"> <i class="fab fa-java fa-7x"></i> </li>
                     <li class="list-group-item"> <img id="mongoDB-icon" src="/images/mongodb.svg" alt="mongoDB-icon"> </li>
                     <li class="list-group-item"> <img id="cpp-icon" src="/images/cpp.svg" alt="cpp-icon"> </li>
-                  </ul>
+                </ul>
 
             </section>
+
+            <!-- Projects Section -->
+            <section id="projects-section">
+
+                <h3> Projects </h3>
+
+                <div id="projects" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                    </div>
+
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active" data-bs-interval="10000">
+
+                        <a href="https://app-my-journey.herokuapp.com/"> <img src="/images/projects/My-Journey-App.png" class="d-block w-100" alt="my-journey-app-picture"> </a>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> My Journey </h5>
+                            <p> Social Media Site Built With Python + Django + Django User Authentication </p>
+                            <a href="https://github.com/racevedo12/My-Journey"> Github Project Repository </a>
+                        </div>
+
+                      </div>
+
+                      <div class="carousel-item" data-bs-interval="10000">
+
+                        <img src="..." class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+
+                      </div>
+
+                      <div class="carousel-item">
+
+                        <img src="..." class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+                    
+                    <button class="carousel-control-prev" 
+                    type="button" 
+                    data-bs-target="#projects" 
+                    data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" 
+                    type="button" 
+                    data-bs-target="#projects" 
+                    data-bs-slide="next">
+                        <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+
+            </section>
+
+            <!-- Footer Section -->
+            <footer id="footer-section">
+
+            </footer>
 
         </main>
         
