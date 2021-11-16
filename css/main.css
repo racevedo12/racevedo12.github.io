@@ -58,6 +58,11 @@ header img
     margin-bottom: 3%;
 }
 
+.education
+{
+    margin-left: 10%;
+}
+
 #skills-section, #footer-section
 {
     text-align: center;
@@ -98,6 +103,17 @@ header img
     margin: 5%;
 }
 /* Media Querys */
+
+/* Bigger Screens */
+@media only screen and (min-width: 1440px)
+{
+   
+    .education
+    {
+        margin-left: 10%;
+    }
+    
+}
 
 /* Mobile Devices */
 @media only screen and (max-width: 425px)
