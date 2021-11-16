@@ -107,5 +107,10 @@ header img
     {
         max-width: 50%;
     }
+
+    #projects
+    {
+        padding-bottom: 50%;
+    }
     
 }
